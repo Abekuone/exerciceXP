@@ -16,7 +16,6 @@ print(my_fav_numbers,"\n""\n")
 
 
 
-
 print("###################     EXO2      ####################################################""\n")
 
 print("It\'s not possible to add more integers to a tuple because it has only 2 elements""\n""\n")
@@ -56,6 +55,7 @@ for i in range(len(a)):
 print("\n""\n")
 
 
+
 print("###################     EXO6      ####################################################""\n")
 name=str(input("Enter your name : "))
 while name==("Armel"):
@@ -79,9 +79,9 @@ for i in range(number):
 	age=int(input("Enter the age of the child : "))
 	if age<3:
 		price=0
-	elif age >=3 or age <=12:
+	elif age >=3 and age <=12:
 		price=10
-	else :
+	elif price>12 :
 		price=15
 	print("This  child paid ",price,"$""\n")
 	liste_price.append(price)
