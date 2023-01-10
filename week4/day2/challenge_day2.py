@@ -1,12 +1,13 @@
-"""
 number=int(input("Enter a number : "))
 ln=int(input("Enter the lenth of the list : "))
 list_number=[]
 for i in range(1,ln+1):
 	list_number.append(i*number)
 print(list_number)
-"""
+print()
+
 #########################################################
+
 word=input("Enter a word : ")
 list_word=word.strip()
 new_list_word = []
