@@ -22,4 +22,4 @@ def shuffle_string(string):
 	return "".join(a_list)
 string=a
 print("The mixture of characters gives : ",shuffle_string(string),"\n")
-print("The daily challenge is done""\n")
+print("The daily challenge is done""\n ")
