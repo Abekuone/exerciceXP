@@ -71,17 +71,16 @@ if choice in list_fruit:
 else:
 	print("You chose a new fruit. I hope you enjoy""\n""\n")
 
-
 print("###################     EXO8      ####################################################""\n")
 number=int(input("Enter the number of children : "))
 liste_price=[]
 for i in range(number):
-	age=int(input("Enter the age of the child : "))
-	if age<3:
+	age=int(input(f"Enter the age of the child {i} : "))
+	if age < 3:
 		price=0
 	elif age >=3 and age <=12:
 		price=10
-	elif price>12 :
+	elif age > 12 :
 		price=15
 	print("This  child paid ",price,"$""\n")
 	liste_price.append(price)
@@ -91,11 +90,16 @@ print("You totaly pay ",som,"$""\n""\n")
 print("###################     EXO9      ####################################################""\n")
 
 list_name=["Armel","Sidiki","Franck"]
-for name in range(len(list_name)):
-	age_child=int(input("What is your age ? : "))
-	if age_child <16 or age_child>21:
-		 list_name.remove(list_name[name])
-print("The final autorized name are :",list_name)
+list_name2=[]
+for name in list_name:
+	age_name=int(input(f"What is the age of {name} ? : "))
+	if age_name >=16 and age_name <=21:
+		list_name2.append(name)
+
+	else:
+		print(f"{name} is not allowed to watch this movie. ")
+
+print("The final autorized name are :",list_name2)
 
 print("###################     EXO10      ####################################################""\n")
 
@@ -128,4 +132,4 @@ print(sandwich_orders,"\n""\n")
 
 
 
-print("All exercises are done !!!!""\n")
+print("All exercises are done !!!""\n")
