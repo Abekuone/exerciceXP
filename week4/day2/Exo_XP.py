@@ -18,7 +18,7 @@ print(my_fav_numbers,"\n""\n")
 
 print("###################     EXO2      ####################################################""\n")
 
-print("It\'s not possible to add more integers to a tuple because it has only 2 elements""\n""\n")
+print("It\'s not possible to add more integers to a tuple because tuples are immutable""\n""\n")
 
 
 
