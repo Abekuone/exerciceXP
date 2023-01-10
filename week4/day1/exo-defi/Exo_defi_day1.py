@@ -9,7 +9,7 @@ print("The first character of this string is : ",a[0],"\n")
 print("The last character of this string is : ",a[-1],"\n")
 
 ##################################################################
-for i in range(len(a)+1):
+for i in range(len(a)):
 	print(a[0:i])
 print()
 
