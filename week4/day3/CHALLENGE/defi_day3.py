@@ -11,9 +11,10 @@ print("list from the word is : ",list_word,"\n")
 dico_word=dict(zip(list_word,range(len(list_word))))
 print("Word as dico is : ",dico_word,"\n")
 
-################Building of the list of tuples#############################
+
 from collections import defaultdict
- 
+
+################Building of the list of tuples#############################
 L = list_word
 dico_index = defaultdict(list)
  

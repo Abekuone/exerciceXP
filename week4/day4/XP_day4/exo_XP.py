@@ -1,5 +1,5 @@
 ############################EXO_XP_DAY4####################################
-"""
+
 print("############################EXO1####################################")
 
 def display_message():
@@ -60,7 +60,7 @@ def make_great(magician_names):
 make_great(magician_names)
 print("\n")
 
-"""
+
 print("############################EXO7####################################")
 
 import random
@@ -100,9 +100,8 @@ def main():
 
 
 get_random_temp(Summer=randint(25,35),Winter=randint(-10,14),Autumn=randint(15,20),Spring=randint(20,25))
-main()
 
-#get_random_temp("Summer")
+
 
 
 """
@@ -122,8 +121,7 @@ main()
 		print("It's like you're in an oven")
 	#sai=input("Input a a name of a saison : ")
 """
-
-
+main()
 
 
 
