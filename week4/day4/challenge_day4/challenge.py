@@ -1,15 +1,12 @@
 M=[[7,"i",3],["T","s","i"],["h","%","x"],["i"," ","#"],["s","M",""],["$","a",""],["#","t","%"],["^","r","!"]]
-l1=[]
 
 a=[]
-aa=[]
 b=[]
-bb=[]
 c=[]
-cc=[]
 
-alpha=["a","b","c","d","e","f","g","h","i","j","k","l,","m","n","o","p","q","r","s","t","u","v","w,","x","y","z"]
-alpha1=["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
+import string
+alpha=list(string.ascii_lowercase)
+alpha1=list(string.ascii_uppercase)
 
 for i in M:
     if i[0] in alpha or i[0] in alpha1:
@@ -40,6 +37,5 @@ print(char_a)
 print(char_b)
 print(char_c)
 """
-
 word=char_a + char_b + " "+ char_c
 print(word)
