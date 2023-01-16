@@ -24,7 +24,7 @@ for i in M:
     if i[2] in alpha or i[2] in alpha1:
         c.append(i[2])
     else:
-        c.append(" ")
+        c.append("")
     
 char_a="".join(a)
 char_b="".join(b)
@@ -37,5 +37,5 @@ print(char_a)
 print(char_b)
 print(char_c)
 """
-word=char_a + char_b + " "+ char_c
+word=char_a+char_b+char_c
 print(word)
