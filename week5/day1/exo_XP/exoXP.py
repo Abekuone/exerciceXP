@@ -8,10 +8,10 @@ class Cat:
         self.age = cat_age
         self.liste = []
 
-
 Cat1=Cat("Boby",7)
 Cat2=Cat("Madou",14)
 Cat3=Cat("Fely",9)
+
 print("The first cat is ", Cat1.name, "He is ", Cat1.age,"years hold")
 print("The second cat is ", Cat2.name, "He is ", Cat2.age,"years hold")
 print("The third cat is ", Cat3.name, "He is ", Cat3.age,"years hold""\n")
@@ -143,31 +143,3 @@ ramat_gan_safari.add_animal(l)
 ramat_gan_safari.get_animals(l)
 ramat_gan_safari.sell_animal(l)
 """
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
